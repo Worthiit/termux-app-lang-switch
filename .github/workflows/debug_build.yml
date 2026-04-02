@@ -6,7 +6,6 @@ on:
       - master
       - 'github-releases/**'
   pull_request:
-  workflow dispatch:
     branches:
       - master
 
