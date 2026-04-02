@@ -1,9 +1,6 @@
-## Modified Termux with language switch 
+## Termux: Hardware Keyboard Language Fix
 
-
-
-**Termux: Hardware Keyboard Language Fix
-This version of Termux includes a specific patch to enable seamless language switching when using an external hardware keyboard.**
+This version of Termux includes a specific patch to enable seamless language switching when using an external hardware keyboard and even on native termux without x11
 
 
 # The Problem
