@@ -28,6 +28,8 @@ Previously, if you needed to change your typing language, you had to leave Termu
 }`
 
 Build Details
- * Development Environment: Compiled using Android Studio Ladybug.
+ * Development Environment: can be Compiled using Android Studio Ladybug or GitHub actions here on GitHub 
  * Workflow: The APK is generated through GitHub Actions for transparency and ease of access.
 This change ensures a smoother experience for developers who rely on hardware keyboards and multiple languages.
+
+i haven't tried it myself so you are free to open an issue 
