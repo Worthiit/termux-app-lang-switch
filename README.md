@@ -13,8 +13,9 @@ Previously, if you needed to change your typing language, you had to leave Termu
 
 # Technical Implementation:
 
-*In the source file TerminalView.java, an additional condition was added to the input handler to detect KeyEvent.KEYCODE_LANGUAGE_SWITCH. When this key is pressed, the application now correctly triggers the system-level response.
-if ```(mClient.onKeyDown(keyCode, event, mTermSession)) {
+*In the source file TerminalView.java, an additional condition was added to the input handler to detect `KeyEvent.KEYCODE_LANGUAGE_SWITCH`. When this key is pressed, the application now correctly triggers the system-level response.
+
+```if (mClient.onKeyDown(keyCode, event, mTermSession)) {
     invalidate();
     return true;
 } else if (event.isSystem() && (!mClient.shouldBackButtonBeMappedToEscape() || keyCode != KeyEvent.KEYCODE_BACK)) {
